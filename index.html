@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Clínica Veterinaria 🐾</title>
+  <meta name="description" content="Clínica Veterinaria en República Dominicana: consultas, cirugías, peluquería y atención profesional para tu mascota." />
+
+  <!-- Bootstrap 5.3.0 (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome 6.0 (CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- NAVBAR (fijo, responsivo) -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm" id="mainNav" aria-label="Menú principal">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#inicio">
+        <i class="fa-solid fa-paw me-2"></i>VetCare RD
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Alternar navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- INICIO / HERO -->
+  <header id="inicio" class="hero-section">
+    <div class="hero-overlay">
+      <div class="container hero-content">
+        <h1 class="display-5 fw-bold mb-3">Cuidamos a tu mascota 🐶🐱 con amor y ciencia 🩺</h1>
+        <p class="lead mb-4">
+          Atención veterinaria moderna, cálida y profesional. Consultas, cirugías, peluquería y seguimiento personalizado.
+        </p>
+        <a class="btn btn-lg btn-accent" href="#contacto">
+          <i class="fa-brands fa-whatsapp me-2"></i>Agendar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- SERVICIOS -->
+<section id="servicios" class="py-5">
+  <div class="container">
+
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">
+        <i class="fa-solid fa-stethoscope me-2"></i>Servicios
+      </h2>
+      <p class="text-muted">
+        Atención integral para tu mascota con calidad y cariño.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://purina.com.do/sites/default/files/2022-10/purina-consulta-veterinaria-para-mascotas-lo-que-debes-saber.jpg"
+               class="card-img-top" alt="Consulta General">
+          <div class="card-body">
+            <h5 class="card-title">
+              <i class="fa-solid fa-heart-pulse me-2 text-success"></i>
+              Consulta General
+            </h5>
+            <p class="card-text">
+              Evaluación, diagnóstico y seguimiento personalizado.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://holavet.com.ar/wp-content/uploads/2022/04/close-up-on-veterinarian-taking-care-of-pet-1.webp"
+               class="card-img-top" alt="Cirugías">
+          <div class="card-body">
+            <h5 class="card-title">
+              <i class="fa-solid fa-kit-medical me-2 text-primary"></i>
+              Cirugías
+            </h5>
+            <p class="card-text">
+              Procedimientos seguros con tecnología moderna.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://neozoo.com.ar/wp-content/uploads/2023/06/Iconos-e-imagenes-09.png"
+               class="card-img-top" alt="Peluquería">
+          <div class="card-body">
+            <h5 class="card-title">
+              <i class="fa-solid fa-scissors me-2 text-warning"></i>
+              Peluquería
+            </h5>
+            <p class="card-text">
+              Baño, corte y cuidado estético profesional.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section id="equipo" class="py-5 bg-light">
+  <div class="container">
+
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">
+        <i class="fa-solid fa-user-doctor me-2"></i>Nuestro Equipo
+      </h2>
+      <p class="text-muted">
+        Profesionales comprometidos con la salud y bienestar animal.
+      </p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- Miembro 1 -->
+      <div class="col-12 col-md-4 text-center">
+        <div class="team-card p-4 h-100">
+          <img src="https://randomuser.me/api/portraits/women/45.jpg"
+               class="team-img mb-3"
+               alt="Dra. María Pérez">
+
+          <h5>Dra. María Pérez</h5>
+          <p class="text-primary mb-1">Medicina General</p>
+          <p class="text-muted small">
+            Más de 8 años brindando atención integral y humanizada a mascotas.
+          </p>
+        </div>
+      </div>
+
+      <!-- Miembro 2 -->
+      <div class="col-12 col-md-4 text-center">
+        <div class="team-card p-4 h-100">
+          <img src="melanie.jpg" class="team-img mb-3" alt="Melanie Alcántara">
+     
+
+          <h5>Dr. Melanie Alcántara</h5>
+          <p class="text-primary mb-1">Cirugía Veterinaria</p>
+          <p class="text-muted small">
+            Especialista en procedimientos quirúrgicos y recuperación avanzada.
+          </p>
+        </div>
+      </div>
+
+      <!-- Miembro 3 -->
+      <div class="col-12 col-md-4 text-center">
+        <div class="team-card p-4 h-100">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg"
+               class="team-img mb-3"
+               alt="Dra. Laura Gómez">
+
+          <h5>Dra. Laura Gómez</h5>
+          <p class="text-primary mb-1">Dermatología</p>
+          <p class="text-muted small">
+            Enfocada en el cuidado de la piel, pelaje y estética animal.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<main>
+  <!-- SECCIÓN DE PRUEBA -->
+  <main class="container py-5">
+    <div class="alert alert-success shadow-sm" role="alert">
+ 
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS Personalizado -->
+  <script src="script.js"></script>
+</body>
+<!-- CONTACTO -->
+<section id="contacto" class="py-5">
+  <div class="container">
+
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">
+        <i class="fa-solid fa-envelope me-2"></i>Contacto
+      </h2>
+      <p class="text-muted">
+        Escríbenos y te respondemos lo antes posible.
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Info -->
+      <div class="col-12 col-lg-5">
+        <div class="contact-card p-4 h-100">
+          <h5 class="mb-3">VetCare RD</h5>
+
+          <p class="mb-2">
+            <i class="fa-solid fa-location-dot me-2"></i>
+            Santo Domingo, República Dominicana
+          </p>
+
+          <p class="mb-2">
+            <i class="fa-solid fa-phone me-2"></i>
+            +1 (809) 000-0000
+          </p>
+
+          <p class="mb-4">
+            <i class="fa-solid fa-clock me-2"></i>
+            Lun–Sáb: 8:00 AM – 6:00 PM
+          </p>
+
+          <a class="btn btn-success w-100"
+             href="https://wa.me/18090000000"
+             target="_blank" rel="noopener">
+            <i class="fa-brands fa-whatsapp me-2"></i>
+            Escribir por WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Formulario -->
+      <div class="col-12 col-lg-7">
+        <div class="contact-card p-4 h-100">
+          <h5 class="mb-3">Envíanos un mensaje</h5>
+
+          <form id="contactForm">
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <label class="form-label">Nombre</label>
+                <input class="form-control" type="text" id="nombre" placeholder="Tu nombre" required>
+              </div>
+
+              <div class="col-12 col-md-6">
+                <label class="form-label">Teléfono</label>
+                <input class="form-control" type="tel" id="telefono" placeholder="809-000-0000">
+              </div>
+
+              <div class="col-12">
+                <label class="form-label">Correo</label>
+                <input class="form-control" type="email" id="correo" placeholder="tuemail@correo.com" required>
+              </div>
+
+              <div class="col-12">
+                <label class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="4" placeholder="¿En qué podemos ayudarte?" required></textarea>
+              </div>
+
+              <div class="col-12">
+                <button class="btn btn-primary w-100" type="submit">
+                  <i class="fa-solid fa-paper-plane me-2"></i>
+                  Enviar
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <div id="contactMsg" class="mt-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>s
+<!-- EQUIPO -->
+
+</html>
